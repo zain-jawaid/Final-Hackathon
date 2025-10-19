@@ -129,7 +129,7 @@ export default function DashboardPage() {
                     Your Medical Reports
                 </h2>
                 <div className="mt-4 space-y-3">
-                    {reports.length === 0 && <p className="text-sm text-gray-500">You haven't uploaded any reports yet.</p>}
+                    {reports.length === 0 && <p className="text-sm text-gray-500">You haven&apos;t uploaded any reports yet.</p>}
                     {reports.map((report) => (
                         <Link
                             key={report._id}
